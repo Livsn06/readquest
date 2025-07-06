@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:readquest_mobile_app/features/splash/presentation/screens/splash_splash_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -10,11 +11,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+      home: SplashScreen(),
     );
   }
 }
